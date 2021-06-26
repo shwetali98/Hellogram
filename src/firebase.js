@@ -1,21 +1,19 @@
-import firebase from 'firebase/app';
+import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/database";
 import "firebase/storage";
 
-
 var firebaseConfig = {
-    apiKey: "AIzaSyC3olYikHAkOUWNzG_ygueJsB1_QuwBlyc",
-    authDomain: "my-react-app-a52ca.firebaseapp.com",
-    projectId: "my-react-app-a52ca",
-    storageBucket: "my-react-app-a52ca.appspot.com",
-    messagingSenderId: "106030874110",
-    appId: "1:106030874110:web:1794ef2d4926b9238a14af",
-    measurementId: "G-Z72R99558Y"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
- // firebase.analytics();
+  apiKey: "AIzaSyDktEzJK9WyJdBT2vmNNvb0J2jQKV0bUxc",
+  authDomain: "hellogram-f0932.firebaseapp.com",
+  projectId: "hellogram-f0932",
+  storageBucket: "hellogram-f0932.appspot.com",
+  messagingSenderId: "1008958706188",
+  appId: "1:1008958706188:web:29377ee3490bff721b1429",
+  measurementId: "G-9PZXC7VT29",
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+// firebase.analytics();
 
-  export default firebase;
- 
+export default firebase;
